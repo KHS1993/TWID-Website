@@ -6,7 +6,7 @@ function App() {
     <div>
       {/* Hero Section */}
       <header className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-purple-500 to-pink-500 px-4">
-        <h1 className="text-white text-5xl font-bold mb-4">The World Is Dancing 🌍</h1>
+        <h1 className="text-white text-5xl font-bold mb-4">The World Is Dancing </h1>
         <p className="text-white text-lg max-w-xl mb-8">
           Discover cultural dances from across the globe.
         </p>
@@ -21,7 +21,7 @@ function App() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <DanceCard title="African Dance" description="Traditional rhythms and movements from Africa." />
           <DanceCard title="Latin Dance" description="Salsa, Bachata and Tango from Latin America." />
-          <DanceCard title="Indian Dance" description="Classical and folk dances from India." />
+          <DanceCard title="Indian Dance" description="Classical Bollywood dances from India." />
         </div>
       </section>
 
@@ -30,10 +30,10 @@ function App() {
         <h2 className="text-3xl font-bold text-center mb-12">Upcoming Events</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <EventCard
-            name="African Drum & Dance Workshop"
+            name="Ethiopian Dance Workshop"
             date="Feb 25, 2026"
             location="Stockholm"
-            description="Learn traditional African rhythms and dance moves with live drumming."
+            description="Learn traditional Ethiopian rhythms and dance moves with live drumming."
           />
           <EventCard
             name="Salsa Night"
@@ -45,7 +45,7 @@ function App() {
             name="Bollywood Dance Class"
             date="Mar 18, 2026"
             location="Malmö"
-            description="Experience classical and folk Bollywood dances in a fun workshop."
+            description="Experience classical Bollywood dances in a exciting workshop."
           />
         </div>
       </section>
