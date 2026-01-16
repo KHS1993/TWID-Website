@@ -5,15 +5,19 @@ function App() {
   return (
     <div>
       {/* Hero Section */}
-      <header className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-purple-500 to-pink-500 px-4">
-        <h1 className="text-white text-5xl font-bold mb-4">The World Is Dancing </h1>
-        <p className="text-white text-lg max-w-xl mb-8">
-          Discover cultural dances from across the globe.
-        </p>
-        <button className="bg-white text-purple-500 font-bold py-3 px-6 rounded-full hover:bg-purple-100 transition">
-          Explore Dances
-        </button>
-      </header>
+      <header className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-br from-purple-500 via-pink-500 to-orange-400 px-6">
+  <h1 className="text-white text-6xl md:text-7xl font-extrabold tracking-tight mb-6">
+    The World Is Dancing 
+  </h1>
+
+  <p className="text-white/90 text-xl md:text-2xl max-w-2xl leading-relaxed mb-10">
+    Explore cultural dances, rhythms, and stories from communities around the world.
+  </p>
+
+  <button className="bg-white/90 text-purple-600 font-semibold py-4 px-10 rounded-full hover:bg-white transition-all shadow-lg">
+    Start Exploring
+  </button>
+</header>
 
       {/* Dance Section */}
       <section className="py-20 px-4 bg-gray-50">
