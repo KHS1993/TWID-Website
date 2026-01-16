@@ -1,10 +1,10 @@
-import DanceCard from './components/DanceCard'
-
+import { DanceCard } from './components/DanceCard';
+import { EventCard } from './components/EventCard';
 
 function App() {
   return (
     <div>
-      {/* Hero */}
+      {/* Hero Section */}
       <header className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-purple-500 to-pink-500 px-4">
         <h1 className="text-white text-5xl font-bold mb-4">The World Is Dancing 🌍</h1>
         <p className="text-white text-lg max-w-xl mb-8">
@@ -22,6 +22,31 @@ function App() {
           <DanceCard title="African Dance" description="Traditional rhythms and movements from Africa." />
           <DanceCard title="Latin Dance" description="Salsa, Bachata and Tango from Latin America." />
           <DanceCard title="Indian Dance" description="Classical and folk dances from India." />
+        </div>
+      </section>
+
+      {/* Event Section */}
+      <section className="py-20 px-4 bg-purple-50">
+        <h2 className="text-3xl font-bold text-center mb-12">Upcoming Events</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <EventCard
+            name="African Drum & Dance Workshop"
+            date="Feb 25, 2026"
+            location="Stockholm"
+            description="Learn traditional African rhythms and dance moves with live drumming."
+          />
+          <EventCard
+            name="Salsa Night"
+            date="Mar 10, 2026"
+            location="Göteborg"
+            description="Join us for a night of Latin dance and social fun."
+          />
+          <EventCard
+            name="Bollywood Dance Class"
+            date="Mar 18, 2026"
+            location="Malmö"
+            description="Experience classical and folk Bollywood dances in a fun workshop."
+          />
         </div>
       </section>
     </div>
